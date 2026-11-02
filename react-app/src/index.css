@@ -1,0 +1,162 @@
+@import "bootstrap";
+@import 'bootstrap-icons';
+
+.ag-theme-quartz {
+    height: 87dvh;
+    --ag-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.ag-theme-quartz-2 {
+    height: 77dvh;
+    --ag-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+/* Modifica globale di tutte le scrollbar della pagina/app per renderle sottili */
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.h-custom-calc {
+    height: calc(100dvh - 90px);
+}
+
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.ag-theme-quartz .ag-root-wrapper {
+    border-radius: 0px !important;
+}
+
+.ag-theme-quartz .ag-row {
+    transition: none !important;
+    animation: none !important;
+}
+
+.ag-theme-quartz .ag-cell {
+    display: flex;
+    align-items: center;
+}
+
+.ag-theme-quartz .ag-header {
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+    background-color: #f8f9fa;
+}
+
+.cursor-grab {
+    cursor: grab;
+}
+
+.w-col-azienda {
+    width: 240px;
+}
+
+.min-w-service {
+    min-width: 175px;
+    height: 32px;
+}
+
+.resize-vertical {
+    resize: vertical;
+}
+
+.border-separate-0 {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.min-h-64px {
+    min-height: 64px;
+}
+
+.h-cell-top {
+    height: 28px;
+}
+
+.w-year-select {
+    width: 120px;
+}
+
+.w-status-select {
+    width: 140px;
+}
+
+.w-search-box {
+    width: 180px;
+}
+
+.w-reset-btn {
+    width: 32px;
+    height: 31px;
+}
+
+.grid-card-item {
+    width: 130px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.grid-badge {
+    width: 22px;
+    height: 22px;
+    font-size: 11px;
+}
+
+.file-icon-lg {
+    font-size: 38px;
+}
+
+.w-context-menu {
+    width: 215px;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.db-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.db-card-hover:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important; /* Ombra più accentuata */
+}

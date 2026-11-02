@@ -1,0 +1,124 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - button " Dashboard" [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: 
+        - text: Dashboard
+      - button " Anagrafiche" [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: 
+        - text: Anagrafiche
+      - button " Paghe" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 
+        - text: Paghe
+      - button " Contabilità" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: 
+        - text: Contabilità
+      - button " Redditi" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: 
+        - text: Redditi
+      - button " Varie" [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: 
+        - text: Varie
+      - button " Cassa" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: 
+        - text: Cassa
+      - button " Elaborazioni" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: 
+        - text: Elaborazioni
+      - button " Report" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: 
+        - text: Report
+      - button " Ripristina demo" [ref=e24] [cursor=pointer]:
+        - generic [ref=e25]: 
+        - text: Ripristina demo
+  - generic [ref=e27]:
+    - heading "Gestionale Studio · Demo" [level=1] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: 
+              - generic [ref=e41]: Elaborazioni
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - generic [ref=e45]: Anno
+                - combobox [ref=e46]:
+                  - option "2026" [selected]
+              - generic [ref=e47]:
+                - generic [ref=e48]: Cliente / Gruppo
+                - textbox "Tutti i Clienti (Riepilogo Generale)" [ref=e50] [cursor=pointer]
+          - button "Apri Sezione " [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: Apri Sezione
+            - generic [ref=e53]: 
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: 
+              - generic [ref=e61]: Pagamenti
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - generic [ref=e65]: Anno
+                - combobox [ref=e66]:
+                  - option "2026" [selected]
+              - generic [ref=e67]:
+                - generic [ref=e68]: Cliente / Gruppo
+                - textbox "Tutti i Clienti (Riepilogo Generale)" [ref=e70] [cursor=pointer]
+          - button "Apri Sezione " [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: Apri Sezione
+            - generic [ref=e73]: 
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 
+              - generic [ref=e81]: Report
+            - generic [ref=e82]:
+              - generic [ref=e83]: Cliente / Gruppo
+              - textbox "Tutti i Clienti (Riepilogo Generale)" [ref=e85] [cursor=pointer]
+          - button "Apri Sezione " [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]: Apri Sezione
+            - generic [ref=e88]: 
+      - generic [ref=e90]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: 
+            - generic "Anagrafiche" [ref=e97]
+          - button "Accedi " [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: Accedi
+            - generic [ref=e100]: 
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: 
+            - generic "Cassa" [ref=e107]
+          - button "Accedi " [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: Accedi
+            - generic [ref=e110]: 
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: 
+            - generic "Paghe" [ref=e117]
+          - button "Accedi " [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: Accedi
+            - generic [ref=e120]: 
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: 
+            - generic "Contabilità" [ref=e127]
+          - button "Accedi " [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]: Accedi
+            - generic [ref=e130]: 
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: 
+            - generic "Redditi" [ref=e137]
+          - button "Accedi " [ref=e138] [cursor=pointer]:
+            - generic [ref=e139]: Accedi
+            - generic [ref=e140]: 
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: 
+            - generic "Varie" [ref=e147]
+          - button "Accedi " [ref=e148] [cursor=pointer]:
+            - generic [ref=e149]: Accedi
+            - generic [ref=e150]: 
+    - button "" [ref=e155] [cursor=pointer]
